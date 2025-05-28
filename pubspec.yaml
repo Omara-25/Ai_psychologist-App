@@ -1,0 +1,61 @@
+name: ai_psychologist
+description: An AI psychologist app with voice features and animations.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  speech_to_text: ^6.3.0
+  flutter_tts: ^3.8.3
+  intl: ^0.18.1
+  lottie: ^2.6.0
+  fl_chart: ^0.64.0
+  permission_handler: ^11.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3
+  flutter_launcher_icons: ^0.13.1
+
+# Flutter Launcher Icons configuration
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/Ai_psychologist.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/images/Ai_psychologist.png"
+    background_color: "#6A11CB"
+    theme_color: "#6A11CB"
+  windows:
+    generate: true
+    image_path: "assets/images/Ai_psychologist.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/images/Ai_psychologist.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/
+    - assets/images/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/static/Roboto-Regular.ttf
+        - asset: assets/fonts/static/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/static/Roboto-Bold.ttf
+          weight: 700
+
