@@ -375,6 +375,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 *🌟 Thank you for supporting mental health awareness and open-source development! 🌟*
 
-</div>#   A i _ p s y c h o l o g i s t - A p p  
- #   A i _ p s y c h o l o g i s t - A p p  
- 
+</div>
